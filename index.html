@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#a6192e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>山大 2048</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <div class="brand">
+        <h1>2048</h1>
+        <p>合并校徽，一路合成 <b>山东大学</b></p>
+      </div>
+      <div class="scores">
+        <div class="score-box"><label>分数</label><b id="score">0</b></div>
+        <div class="score-box"><label>最高</label><b id="best">0</b></div>
+      </div>
+    </header>
+
+    <div class="toolbar">
+      <button id="btn-new" class="btn primary">新游戏</button>
+      <button id="btn-undo" class="btn">撤销 <em id="undo-count">3</em></button>
+      <div class="seg" id="mode">
+        <button data-n="4">4×4</button>
+        <button data-n="5">5×5</button>
+      </div>
+      <button id="btn-sound" class="btn icon" aria-label="音效">🔊</button>
+      <button id="btn-help" class="btn icon" aria-label="玩法说明">?</button>
+    </div>
+
+    <div class="goal">
+      <div class="goal-body" id="goal"></div>
+      <div class="g-prog"><i id="goal-prog"></i></div>
+    </div>
+
+    <div class="board-wrap" id="board-wrap">
+      <div class="board" id="board">
+        <div id="grid-bg"></div>
+        <div id="tiles"></div>
+        <div id="fx"></div>
+      </div>
+    </div>
+
+    <div class="ladder-head"><span>校徽图鉴</span><small id="collect-count"></small></div>
+    <div class="ladder" id="ladder"></div>
+    <p class="tips">滑动屏幕 / 方向键 / WASD 移动 · Z 撤销</p>
+  </div>
+
+  <div id="toast" class="toast"></div>
+  <div id="unlock" class="unlock"></div>
+  <div id="modal" class="modal"><div id="modal-card" class="modal-card"></div></div>
+  <canvas id="confetti"></canvas>
+
+  <script src="js/schools.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>

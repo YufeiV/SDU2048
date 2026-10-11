@@ -1,0 +1,17 @@
+const SCHOOLS = [
+  { id: 'muc',  name: '中央民族大学',     short: '民大', en: 'MINZU UNIVERSITY OF CHINA',      year: 1941, students: 1.8, color: '#f08c2e', motto: '美美与共 知行合一' },
+  { id: 'cau',  name: '中国农业大学',     short: '农大', en: 'CHINA AGRICULTURAL UNIVERSITY',  year: 1905, students: 2.8, color: '#2e9e50', motto: '解民生之多艰 育天下之英才' },
+  { id: 'ouc',  name: '中国海洋大学',     short: '海大', en: 'OCEAN UNIVERSITY OF CHINA',      year: 1924, students: 3.1, color: '#1e8de0', motto: '海纳百川 取则行远' },
+  { id: 'nku',  name: '南开大学',         short: '南开', en: 'NANKAI UNIVERSITY',              year: 1919, students: 3.3, color: '#8e44ad', motto: '允公允能 日新月异' },
+  { id: 'buaa', name: '北京航空航天大学', short: '北航', en: 'BEIHANG UNIVERSITY',             year: 1952, students: 3.6, color: '#00838f', motto: '德才兼备 知行合一' },
+  { id: 'fdu',  name: '复旦大学',         short: '复旦', en: 'FUDAN UNIVERSITY',               year: 1905, students: 3.9, color: '#1f3c88', motto: '博学而笃志 切问而近思' },
+  { id: 'xmu',  name: '厦门大学',         short: '厦大', en: 'XIAMEN UNIVERSITY',              year: 1921, students: 4.2, color: '#d81b60', motto: '自强不息 止于至善' },
+  { id: 'pku',  name: '北京大学',         short: '北大', en: 'PEKING UNIVERSITY',              year: 1898, students: 4.6, color: '#9b0a0a', motto: '思想自由 兼容并包' },
+  { id: 'thu',  name: '清华大学',         short: '清华', en: 'TSINGHUA UNIVERSITY',            year: 1911, students: 5.0, color: '#5b0a70', motto: '自强不息 厚德载物' },
+  { id: 'xjtu', name: '西安交通大学',     short: '西交', en: "XI'AN JIAOTONG UNIVERSITY",      year: 1896, students: 5.3, color: '#1565c0', motto: '精勤求学 敦笃励志 果毅力行 忠恕任事' },
+  { id: 'hust', name: '华中科技大学',     short: '华科', en: 'HUAZHONG UNIV. OF SCI. & TECH.', year: 1952, students: 5.9, color: '#6d8f1f', motto: '明德厚学 求是创新' },
+  { id: 'sysu', name: '中山大学',         short: '中大', en: 'SUN YAT-SEN UNIVERSITY',         year: 1924, students: 6.3, color: '#0b6e3c', motto: '博学 审问 慎思 明辨 笃行' },
+  { id: 'zju',  name: '浙江大学',         short: '浙大', en: 'ZHEJIANG UNIVERSITY',            year: 1897, students: 6.7, color: '#003f8a', motto: '求是创新' },
+  { id: 'scu',  name: '四川大学',         short: '川大', en: 'SICHUAN UNIVERSITY',             year: 1896, students: 6.9, color: '#b71c1c', motto: '海纳百川 有容乃大' },
+  { id: 'sdu',  name: '山东大学',         short: '山大', en: 'SHANDONG UNIVERSITY',            year: 1901, students: 7.1, color: '#a6192e', motto: '学无止境 气有浩然', final: true },
+];
